@@ -1,0 +1,158 @@
+nav{
+    width: 100%;
+    height: 80px;
+    background-color: gray;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 20px;
+}
+
+.logo{
+    float: left;
+    color: white;
+}
+.nav-con{
+    width: 520px;
+    height: 60px;
+    float: right;
+}
+
+.nav-con li{
+    float: left;
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 35px;
+    background-color: white;
+    border-radius: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding-top: 5px;
+}
+
+.nav-con li:hover{
+    background-color: #2b2b2b;
+    color: white;
+    cursor: pointer;
+}
+
+.nav-con, ul{
+    list-style: none;
+}
+
+.active{
+    background-color: #2b2b2b !important;
+    color: white;
+}
+
+header h1{
+    font-size: 45px;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+header{
+    width: 100%;
+    height: 600px;
+    background-color: lightgray;
+    padding-left: 10%;
+    padding-top: 150px;
+    padding-right: 10%;
+}
+
+header p{
+    width: 640px;
+    margin-bottom: 16px;
+}
+
+.col-12{
+    width: 100%;
+    height: 100px;
+    background-color: gray;
+    text-align: center;
+    padding-top: 25px;
+    color: white;
+}
+
+.rectangle{
+    width: 80%;
+    height: 400px;
+    background-color: lightgray;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+
+.col-6{
+    width: 50%;
+}
+.text{
+   padding-top: 100px;
+   padding-right: 10%;
+}
+
+.button-inverted{
+    width: 200px;
+    height: 40px;
+    border: 2px solid #2b2b2b;
+    border-radius: 5px;
+    text-align: center;
+    padding-top: 6px;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+.button-inverted:hover{
+    background-color: #2b2b2b;
+    color: white;
+    cursor: pointer;
+}
+
+.section-head{
+    text-align: center;
+    margin-top: 100px;
+}
+
+.small-button{
+    width: 150px;
+    height: 35px;
+    background-color: #2b2b2b;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+    padding-top: 5px;
+    margin: auto;
+}
+
+.small-button:hover{
+    background-color: white;
+    color: #2b2b2b;
+    border: 2px solid #2b2b2b;
+    cursor: pointer;
+}
+.col-3{
+    width: 25%;
+}
+
+
+.round{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: lightgray;
+    margin: auto;
+    margin-bottom: 10px;
+}
+.thumbnail{
+    text-align: center;
+    padding-top: 25px;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+footer{
+    width: 100%;
+    height: 150px;
+    background-color: #2b2b2b;
+    color: white;
+    text-align: center;
+    padding-top: 50px;
+    margin-top: 100px !important;
+}
